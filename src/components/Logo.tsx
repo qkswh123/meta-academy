@@ -10,7 +10,7 @@ export function Emblem({ className = "", size = 40 }: { className?: string; size
       role="img"
       aria-label="META 로고"
     >
-      <circle cx="32" cy="32" r="31" fill="var(--color-navy-deep)" />
+      <circle cx="32" cy="32" r="31" fill="var(--color-green-deep)" />
       <circle
         cx="32"
         cy="32"
@@ -41,7 +41,7 @@ export function Wordmark({ tight = false }: { tight?: boolean }) {
   return (
     <span className={`flex flex-col ${tight ? "gap-0" : "gap-0.5"}`}>
       <span
-        className="font-display text-[1.05rem] font-semibold tracking-[0.06em] text-navy-deep leading-none"
+        className="font-display text-[1.05rem] font-semibold tracking-[0.06em] text-green-deep leading-none"
         style={{ fontFamily: "var(--font-display)" }}
       >
         META

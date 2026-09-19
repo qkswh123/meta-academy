@@ -9,7 +9,7 @@ export default function TeacherSection() {
       <div className="mx-auto max-w-6xl px-5 py-24 md:px-8">
         <FadeIn className="text-center">
           <p className="eyebrow">TEACHERS</p>
-          <h2 className="mt-5 text-3xl font-semibold tracking-tight text-navy-deep">
+          <h2 className="mt-5 text-3xl font-semibold tracking-tight text-green-deep">
             함께 배우고 성장하는 선생님
           </h2>
         </FadeIn>
@@ -21,7 +21,7 @@ export default function TeacherSection() {
               <p className="mt-4 text-xs tracking-wider text-gold">
                 {teacher.subject}
               </p>
-              <p className="mt-1 text-base font-medium text-navy-deep">
+              <p className="mt-1 text-base font-medium text-green-deep">
                 {teacher.name}
               </p>
               <p className="mt-1 text-sm text-ink-soft">{teacher.role}</p>
@@ -32,7 +32,7 @@ export default function TeacherSection() {
         <div className="mt-12 text-center">
           <Link
             href="/teachers"
-            className="inline-flex items-center gap-2 text-sm font-medium text-navy-deep"
+            className="inline-flex items-center gap-2 text-sm font-medium text-green-deep"
           >
             선생님 전체 보기
             <span aria-hidden="true">→</span>

@@ -3,7 +3,7 @@ import FadeIn from "./FadeIn";
 
 export default function ContactCTA() {
   return (
-    <section className="bg-navy-deep">
+    <section className="bg-green-deep">
       <div className="mx-auto max-w-4xl px-5 py-24 text-center md:px-8">
         <FadeIn>
           <p className="eyebrow">CONTACT</p>
@@ -19,7 +19,7 @@ export default function ContactCTA() {
 
           <Link
             href="/contact"
-            className="mt-9 inline-flex items-center gap-2 rounded-sm bg-gold px-8 py-3.5 text-sm font-medium text-navy-deep transition-colors hover:bg-gold-soft"
+            className="mt-9 inline-flex items-center gap-2 rounded-sm bg-gold px-8 py-3.5 text-sm font-medium text-green-deep transition-colors hover:bg-gold-soft"
           >
             상담 문의하기
           </Link>

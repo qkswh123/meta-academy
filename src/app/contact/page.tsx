@@ -24,12 +24,12 @@ export default function ContactPage() {
               <div>
                 <p className="eyebrow">전화 문의</p>
                 {/* TODO: 실제 전화번호 입력 */}
-                <p className="mt-3 text-lg text-navy-deep">000-0000-0000</p>
+                <p className="mt-3 text-lg text-green-deep">000-0000-0000</p>
               </div>
               <div>
                 <p className="eyebrow">카카오톡 문의</p>
                 {/* TODO: 실제 카카오톡 채널 링크 또는 아이디 입력 */}
-                <p className="mt-3 text-lg text-navy-deep">카카오톡 채널 준비 중</p>
+                <p className="mt-3 text-lg text-green-deep">카카오톡 채널 준비 중</p>
               </div>
               <div>
                 <p className="eyebrow">오시는 길</p>

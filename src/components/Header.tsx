@@ -48,7 +48,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 className={`group relative text-[0.92rem] transition-colors ${
-                  active ? "text-navy-deep font-medium" : "text-ink-soft hover:text-navy-deep"
+                  active ? "text-green-deep font-medium" : "text-ink-soft hover:text-green-deep"
                 }`}
               >
                 {link.label}
@@ -65,7 +65,7 @@ export default function Header() {
         <div className="hidden md:block">
           <Link
             href="/contact"
-            className="rounded-sm bg-navy-deep px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-navy"
+            className="rounded-sm bg-green-deep px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-green"
           >
             상담 문의
           </Link>
@@ -79,13 +79,13 @@ export default function Header() {
           className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] md:hidden"
         >
           <span
-            className={`h-px w-6 bg-navy-deep transition-transform ${
+            className={`h-px w-6 bg-green-deep transition-transform ${
               menuOpen ? "translate-y-[6.5px] rotate-45" : ""
             }`}
           />
-          <span className={`h-px w-6 bg-navy-deep transition-opacity ${menuOpen ? "opacity-0" : ""}`} />
+          <span className={`h-px w-6 bg-green-deep transition-opacity ${menuOpen ? "opacity-0" : ""}`} />
           <span
-            className={`h-px w-6 bg-navy-deep transition-transform ${
+            className={`h-px w-6 bg-green-deep transition-transform ${
               menuOpen ? "-translate-y-[6.5px] -rotate-45" : ""
             }`}
           />
@@ -111,7 +111,7 @@ export default function Header() {
         </nav>
         <Link
           href="/contact"
-          className="mt-6 flex w-full items-center justify-center rounded-sm bg-navy-deep px-5 py-3.5 text-sm font-medium text-white"
+          className="mt-6 flex w-full items-center justify-center rounded-sm bg-green-deep px-5 py-3.5 text-sm font-medium text-white"
         >
           상담 문의
         </Link>

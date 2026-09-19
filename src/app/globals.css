@@ -2,9 +2,9 @@
 @import "pretendard/dist/web/variable/pretendardvariable.css";
 
 :root {
-  --color-navy: #063a5b;
-  --color-navy-deep: #032b45;
-  --color-navy-soft: #0e4a70;
+  --color-green: #0f5c3f;
+  --color-green-deep: #0a3d2a;
+  --color-green-soft: #157048;
   --color-gold: #c9a45c;
   --color-gold-soft: #e4d3ab;
   --color-bg: #f8f7f4;
@@ -15,9 +15,9 @@
 }
 
 @theme inline {
-  --color-navy: var(--color-navy);
-  --color-navy-deep: var(--color-navy-deep);
-  --color-navy-soft: var(--color-navy-soft);
+  --color-green: var(--color-green);
+  --color-green-deep: var(--color-green-deep);
+  --color-green-soft: var(--color-green-soft);
   --color-gold: var(--color-gold);
   --color-gold-soft: var(--color-gold-soft);
   --color-bg: var(--color-bg);
@@ -43,7 +43,7 @@ body {
 
 ::selection {
   background: var(--color-gold-soft);
-  color: var(--color-navy-deep);
+  color: var(--color-green-deep);
 }
 
 .eyebrow {
@@ -79,7 +79,7 @@ body {
 }
 
 .input:focus {
-  border-color: var(--color-navy-deep);
+  border-color: var(--color-green-deep);
 }
 
 select.input {

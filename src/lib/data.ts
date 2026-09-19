@@ -1,5 +1,5 @@
 // 학원 콘텐츠 데이터. 실제 운영 데이터로 교체하는 지점입니다.
-// news, teachers 등은 더미(placeholder) 데이터이며 isDummy: true 로 표시합니다.
+// news는 더미(placeholder) 데이터이며 isDummy: true 로 표시합니다.
 
 export type SubjectSlug = "korean" | "english" | "math" | "science";
 
@@ -113,42 +113,36 @@ export interface Teacher {
   name: string;
   role: string;
   bio: string;
-  isDummy: true;
 }
 
-// 아래 선생님 정보는 예시(placeholder)입니다. 실제 프로필로 교체해 주세요.
 export const teachers: Teacher[] = [
   {
-    id: "korean",
+    id: "shin-misun",
     subject: "국어",
-    name: "선생님 성함",
+    name: "신미순 선생님",
     role: "국어 담당",
-    bio: "선생님 소개 문구가 이 영역에 들어갑니다.",
-    isDummy: true,
+    bio: "국어 내신·수능을 전문으로 지도하며, 중등 역사·사회 내신도 함께 지도합니다.",
   },
   {
-    id: "english",
+    id: "hwang-mijin",
+    subject: "수학·과학",
+    name: "황미진 선생님",
+    role: "수학·과학 담당",
+    bio: "수학·과학 내신을 전문으로 지도합니다.",
+  },
+  {
+    id: "choi-miseon",
+    subject: "수학·과학",
+    name: "최미선 선생님",
+    role: "수학·과학 담당",
+    bio: "수학·과학 내신을 전문으로 지도합니다.",
+  },
+  {
+    id: "park-youngshin",
     subject: "영어",
-    name: "선생님 성함",
+    name: "박영신 선생님",
     role: "영어 담당",
-    bio: "선생님 소개 문구가 이 영역에 들어갑니다.",
-    isDummy: true,
-  },
-  {
-    id: "math",
-    subject: "수학",
-    name: "선생님 성함",
-    role: "수학 담당",
-    bio: "선생님 소개 문구가 이 영역에 들어갑니다.",
-    isDummy: true,
-  },
-  {
-    id: "science",
-    subject: "과학",
-    name: "선생님 성함",
-    role: "과학 담당",
-    bio: "선생님 소개 문구가 이 영역에 들어갑니다.",
-    isDummy: true,
+    bio: "영어 내신을 전문으로 지도합니다.",
   },
 ];
 

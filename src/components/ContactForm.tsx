@@ -27,7 +27,7 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="border border-line bg-white px-8 py-16 text-center">
-        <p className="text-xl font-semibold text-navy-deep">
+        <p className="text-xl font-semibold text-green-deep">
           상담 신청이 접수되었습니다.
         </p>
         <p className="mt-3 text-[0.95rem] leading-relaxed text-ink-soft">
@@ -104,7 +104,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="mt-8 w-full rounded-sm bg-navy-deep px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-navy sm:w-auto"
+        className="mt-8 w-full rounded-sm bg-green-deep px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-green sm:w-auto"
       >
         상담 신청
       </button>
@@ -129,7 +129,7 @@ function Field({
 }) {
   return (
     <div className={full ? "lg:col-span-2" : ""}>
-      <label htmlFor={htmlFor} className="mb-2 block text-sm font-medium text-navy-deep">
+      <label htmlFor={htmlFor} className="mb-2 block text-sm font-medium text-green-deep">
         {label}
       </label>
       {children}

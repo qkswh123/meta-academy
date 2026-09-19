@@ -8,7 +8,7 @@ export default function HeroGraphic() {
     >
       <circle cx="210" cy="210" r="200" fill="none" stroke="var(--color-line)" strokeWidth="1" />
       <circle cx="210" cy="210" r="150" fill="none" stroke="var(--color-line)" strokeWidth="1" />
-      <circle cx="210" cy="210" r="100" fill="var(--color-navy-deep)" />
+      <circle cx="210" cy="210" r="100" fill="var(--color-green-deep)" />
       <circle
         cx="210"
         cy="210"

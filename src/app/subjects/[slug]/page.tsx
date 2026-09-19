@@ -51,7 +51,7 @@ export default async function SubjectDetailPage({
               <div className="space-y-8">
                 <div>
                   <p className="eyebrow">대상 학년</p>
-                  <p className="mt-3 text-lg text-navy-deep">{subject.grades}</p>
+                  <p className="mt-3 text-lg text-green-deep">{subject.grades}</p>
                 </div>
                 <div>
                   <p className="eyebrow">주요 학습 영역</p>
@@ -103,12 +103,12 @@ export default async function SubjectDetailPage({
           </div>
 
           <FadeIn delay={180} className="mt-16 flex flex-col items-start gap-5 border-t border-line pt-10 sm:flex-row sm:items-center sm:justify-between">
-            <p className="text-lg font-medium text-navy-deep">
+            <p className="text-lg font-medium text-green-deep">
               {subject.name} 수업이 궁금하다면 상담을 받아보세요.
             </p>
             <Link
               href="/contact"
-              className="rounded-sm bg-navy-deep px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-navy whitespace-nowrap"
+              className="rounded-sm bg-green-deep px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-green whitespace-nowrap"
             >
               상담 문의
             </Link>
@@ -118,7 +118,7 @@ export default async function SubjectDetailPage({
 
       <div className="border-t border-line bg-white">
         <div className="mx-auto max-w-6xl px-5 py-6 md:px-8">
-          <Link href="/subjects" className="text-sm text-ink-soft hover:text-navy-deep">
+          <Link href="/subjects" className="text-sm text-ink-soft hover:text-green-deep">
             ← 과목소개 전체 보기
           </Link>
         </div>

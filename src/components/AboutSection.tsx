@@ -8,7 +8,7 @@ export default function AboutSection() {
         <div className="grid gap-12 md:grid-cols-[0.85fr_1.15fr] md:gap-20">
           <FadeIn>
             <p className="eyebrow">ABOUT META</p>
-            <h2 className="mt-5 text-3xl font-semibold leading-snug tracking-tight text-navy-deep">
+            <h2 className="mt-5 text-3xl font-semibold leading-snug tracking-tight text-green-deep">
               배움의 시작은
               <br />
               학생을 이해하는 것에서부터
@@ -28,7 +28,7 @@ export default function AboutSection() {
 
             <Link
               href="/about"
-              className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-navy-deep"
+              className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-green-deep"
             >
               학원소개 자세히 보기
               <span aria-hidden="true">→</span>

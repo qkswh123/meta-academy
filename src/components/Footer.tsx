@@ -2,7 +2,7 @@ import { Emblem } from "./Logo";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-navy-deep text-white/70">
+    <footer className="border-t border-line bg-green-deep text-white/70">
       <div className="mx-auto max-w-6xl px-5 py-14 md:px-8">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
           <div className="flex items-start gap-3">

@@ -42,7 +42,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8">
           <FadeIn className="max-w-2xl">
             <p className="eyebrow">교육 방향</p>
-            <h2 className="mt-5 text-2xl font-semibold leading-snug text-navy-deep">
+            <h2 className="mt-5 text-2xl font-semibold leading-snug text-green-deep">
               많이 푸는 공부보다,
               <br />
               이해하고 자신의 것으로 만드는 공부
@@ -65,7 +65,7 @@ export default function AboutPage() {
           <div className="mt-10 grid gap-px overflow-hidden border border-line bg-line sm:grid-cols-3">
             {values.map((v, i) => (
               <FadeIn key={v.title} delay={i * 80} className="bg-white p-8">
-                <h3 className="text-lg font-semibold text-navy-deep">
+                <h3 className="text-lg font-semibold text-green-deep">
                   {v.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-ink-soft">
@@ -81,7 +81,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8">
           <FadeIn className="max-w-2xl">
             <p className="eyebrow">학원 공간</p>
-            <h2 className="mt-5 text-2xl font-semibold leading-snug text-navy-deep">
+            <h2 className="mt-5 text-2xl font-semibold leading-snug text-green-deep">
               차분하게 집중할 수 있는 공간
             </h2>
             <p className="mt-6 text-[1.05rem] leading-loose text-ink-soft">
@@ -104,12 +104,12 @@ export default function AboutPage() {
 
       <section className="border-t border-line bg-white">
         <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-5 py-16 sm:flex-row sm:items-center sm:justify-between md:px-8">
-          <p className="text-lg font-medium text-navy-deep">
+          <p className="text-lg font-medium text-green-deep">
             메타인지학원이 궁금하신가요?
           </p>
           <Link
             href="/contact"
-            className="rounded-sm bg-navy-deep px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-navy"
+            className="rounded-sm bg-green-deep px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-green"
           >
             상담 문의하기
           </Link>

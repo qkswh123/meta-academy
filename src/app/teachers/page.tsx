@@ -15,7 +15,7 @@ export default function TeachersPage() {
       <PageHero
         eyebrow="TEACHERS"
         title="함께 배우고 성장하는 선생님"
-        description="과목별 선생님의 소개와 교육 경력은 준비되는 대로 업데이트됩니다."
+        description="선생님 사진과 자세한 교육 경력은 준비되는 대로 업데이트됩니다."
       />
 
       <section className="bg-bg">
@@ -27,7 +27,7 @@ export default function TeachersPage() {
                 <p className="mt-5 text-xs tracking-wider text-gold">
                   {teacher.subject}
                 </p>
-                <p className="mt-1.5 text-lg font-medium text-navy-deep">
+                <p className="mt-1.5 text-lg font-medium text-green-deep">
                   {teacher.name}
                 </p>
                 <p className="mt-1 text-sm text-ink-soft">{teacher.role}</p>

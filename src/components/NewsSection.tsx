@@ -9,13 +9,13 @@ export default function NewsSection() {
         <FadeIn className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="eyebrow">NEWS</p>
-            <h2 className="mt-5 text-3xl font-semibold tracking-tight text-navy-deep">
+            <h2 className="mt-5 text-3xl font-semibold tracking-tight text-green-deep">
               메타인지학원 소식
             </h2>
           </div>
           <Link
             href="/news"
-            className="text-sm font-medium text-navy-deep"
+            className="text-sm font-medium text-green-deep"
           >
             전체 보기 →
           </Link>

@@ -25,13 +25,13 @@ export default function SubjectsPage() {
               <FadeIn key={subject.slug} delay={i * 80}>
                 <Link
                   href={`/subjects/${subject.slug}`}
-                  className="group flex h-full flex-col justify-between bg-white p-10 transition-colors hover:bg-navy-deep"
+                  className="group flex h-full flex-col justify-between bg-white p-10 transition-colors hover:bg-green-deep"
                 >
                   <div>
                     <span className="font-display text-sm text-gold">
                       {subject.no}
                     </span>
-                    <h2 className="mt-6 text-2xl font-semibold text-navy-deep transition-colors group-hover:text-white">
+                    <h2 className="mt-6 text-2xl font-semibold text-green-deep transition-colors group-hover:text-white">
                       {subject.name}
                     </h2>
                     <p className="mt-1 text-sm text-ink-soft/70 transition-colors group-hover:text-white/50">
@@ -41,7 +41,7 @@ export default function SubjectsPage() {
                       {subject.description}
                     </p>
                   </div>
-                  <span className="mt-10 inline-flex items-center gap-1.5 text-xs font-medium text-navy-deep transition-colors group-hover:text-gold">
+                  <span className="mt-10 inline-flex items-center gap-1.5 text-xs font-medium text-green-deep transition-colors group-hover:text-gold">
                     자세히 보기
                     <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">
                       →
